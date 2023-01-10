@@ -1,0 +1,1 @@
+2023-01-10 ERROR Calcola:36 Deve essere inserito un numero
