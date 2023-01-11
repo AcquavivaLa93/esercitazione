@@ -14,6 +14,9 @@ public class Calcolatrice {
 	}
 	
 	public double divisione(double a, double b) {
+		if (b == 0) {
+			throw new IllegalArgumentException("Il secondo parametro non può essere pari a zero.");
+		}
 		return a / b;
 	}
 	

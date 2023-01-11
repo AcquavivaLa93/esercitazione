@@ -15,9 +15,9 @@ public class testCalcolatrice {
 		double b = 5;
 		
 		assertEquals(calc.somma(a, b), a+b);
-		//assertEquals(calc.sottrazione(a, b), a-b);
-		//assertEquals(calc.divisione(a, b), a/b);
-		//assertEquals(calc.potenza(a, b), Math.pow(a, b));
-		//assertEquals(calc.media(a, b), (a+b)/2);
+		assertEquals(calc.sottrazione(a, b), a-b);
+		assertEquals(calc.potenza(a, b), Math.pow(a, b));
+		assertEquals(calc.media(a, b), (a+b)/2);
+		assertEquals(calc.divisione(a, b), a/b);
 	}
 }
